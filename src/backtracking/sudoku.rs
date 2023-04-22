@@ -55,7 +55,7 @@ impl Sudoku {
             }
         }
 
-        true
+        return true
     }
 
     pub fn solve(&mut self) -> bool {
